@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Financial_Data_Aggregation.BLL\Financial_Data_Aggregation.BLL.csproj" />
+    <ProjectReference Include="..\Financial_Data_Aggregation.Shared\Financial_Data_Aggregation.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
